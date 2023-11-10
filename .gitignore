@@ -159,7 +159,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-users
 umsenv
-dums
-manage.py
+dums/settings.py
+dums/__init__.py
