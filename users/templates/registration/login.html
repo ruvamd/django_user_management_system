@@ -11,7 +11,9 @@
     <input type='submit' value='Login' />
 </form>
 
-<a href='{% url 'dashboard' %}'>back to dashboard</a>
+<a href="{% url 'dashboard' %}">back to dashboard</a>
+{% comment %} <a href="{% url 'social:begin' 'github' %}">login with github</a> {% endcomment %}
 <a href="{% url 'password_reset' %}">reset password</a>
+<a href="{% url 'register' %}">register</a>
 
 {% endblock %}
